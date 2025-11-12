@@ -219,7 +219,10 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
 # Sass/SCSS
 sass:
@@ -238,7 +241,7 @@ paginate_path: /page:num/
 collections:
   posts:
     output: true
-    
+
 # Pagination with jekyll-paginate-v2
 # See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 #   for configuration details

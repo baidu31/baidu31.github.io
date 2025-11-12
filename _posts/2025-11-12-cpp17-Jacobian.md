@@ -1,5 +1,7 @@
 ---
 title: "雅可比矩阵"
+layout: single
+mathjax: true
 categories:
   - 数值优化
 tags:
